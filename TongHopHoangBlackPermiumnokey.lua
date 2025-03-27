@@ -1630,7 +1630,7 @@ end
 local Window = MakeWindow({
     Hub = {
         Title = "HoàngBlackHub Beta v0.3 Beta ( permium admin script ☕)",
-        Animation = "Cre: NgọcHoàng20?👑"
+        Animation = "Cre: HuynhNgocHoang"
     },
     Key = {
         KeySystem = false,
