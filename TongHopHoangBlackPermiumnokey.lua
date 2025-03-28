@@ -110,13 +110,6 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/newredz/BloxFruits/re
 })
 
 AddButton(Tab2o, {
-    Name = "Hoang-Black-Hub v0.07",
-    Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/Hoang223-design/Bloxfruit-Main/refs/heads/main/HoangMainBf.lua"))()
-    end
-})
-
-AddButton(Tab2o, {
     Name = "Hoang-Black-Hub v0.08",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Hoang223-design/BF-HoangBlack/refs/heads/main/HoangBlackDepTraiVaiCaNho.lua"))()
