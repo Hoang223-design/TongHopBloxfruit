@@ -1737,6 +1737,13 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/newredz/BloxFruits/re
 })
 
 AddButton(Tab2o, {
+    Name = "Hoang-Black-Hub",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Hoang223-design/Bloxfruit-Main/refs/heads/main/HoangMainBf.lua"))()
+    end
+})
+
+AddButton(Tab2o, {
     Name = "W-azure v2",
     Callback = function()
         loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc6104dabe8e19562e5cc2.lua"))()
